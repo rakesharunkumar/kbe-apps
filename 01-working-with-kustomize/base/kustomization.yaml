@@ -2,6 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-- test-deployment.yaml
-- test-ns.yaml
-- test-svc.yaml
+  - test-deployment.yaml
+  - test-secret.yaml
+  - test-ns.yaml
+  - test-svc.yaml
